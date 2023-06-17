@@ -97,8 +97,6 @@ EOF
 
 # Start the LEMP stack
 docker-compose up -d
+echo "LEMP stack created successfully. You can access your website at http://localhost"
 chmod +x create_lemp_stack.sh
 ./create_lemp_stack.sh mysite
-
-
-echo "LEMP stack created successfully. You can access your website at http://localhost"
